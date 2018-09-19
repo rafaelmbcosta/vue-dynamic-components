@@ -8,7 +8,7 @@
                 <button class="btn btn-danger"@click="selectedComponent = 'appRed'">Load Red Template</button>
                 <hr>
                 <keep-alive>
-                  <component :is="selectedComponent"> Selecione um componente </component>
+                  <component :is="selectedComponent"> <p> {{ selectedComponent }} Selecionado </p> </component>
                 </keep-alive>
             </div>
         </div>
